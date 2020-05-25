@@ -17,6 +17,10 @@ body {
   box-sizing: border-box;
 }
 
+.container-lg > p:first-child {
+  display: none;
+}
+
 /* basic styles */
 body {
   background-color: var(--white);
